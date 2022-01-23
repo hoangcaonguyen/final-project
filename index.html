@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="https://kit.fontawesome.com/a38f25986b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="confirm">
+        <div>
+            <div>
+                bấm "skip" để bỏ qua. Sau khi hoàn thành design trang đăng nhập thì xóa phần này
+            </div>
+            <button onclick="comfirm()">
+                skip
+            </button>
+        </div>
+    </div>
+
+    <div id="main">
+        <nav class="navbar">
+            <div class="tab">
+                <div class="tab-item active" onclick="ChangeContents(0)">
+                    <i class="fas fa-store"></i>
+                    <span>Cửa hàng</span>
+                </div>
+                <div class="tab-item" onclick="ChangeContents(1)">
+                    <i class="fas fa-address-book"></i>
+                    <span>Khách hàng</span>
+                </div>
+                <div class="tab-item" onclick="ChangeContents(2)">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <span>Sổ nợ</span>
+                </div>
+                <div class="tab-item" onclick="ChangeContents(3)">
+                    <i class="fas fa-boxes"></i>
+                    <span>Kho hàng</span>
+                </div>
+                <div class="tab-item" onclick="ChangeContents(4)">
+                    <i class="fas fa-user"></i>
+                    <span>Cá nhân</span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="contents">
+            <div class="tab-content active">
+                đây là trang cửa hàng
+            </div>
+            <div class="tab-content">
+                đây là trang khách hàng
+            </div>
+            <div class="tab-content">
+                đây là trang sổ nợ
+            </div>
+            <div class="tab-content">
+                đây là trang kho hàng
+            </div>
+            <div class="tab-content">
+                đây là trang cá nhân
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

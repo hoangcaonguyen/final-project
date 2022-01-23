@@ -1,0 +1,43 @@
+#main {
+    display: none;
+}
+
+
+
+.tab {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.tab-item > .fas {
+    margin: 5px auto;
+    font-size: larger;
+
+}
+
+.tab-item > span {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.tab-item {
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.tab-item.active {
+    color: rgb(6, 221, 149);
+}
+
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}

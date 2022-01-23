@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        position: fixed;
+        bottom: 5px;
+        width: 100%;
+    }
+
+    #confirm {
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: aquamarine;
+    }
+}
