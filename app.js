@@ -21,6 +21,15 @@ function comfirm() {
 }
 
 
+// xử lý hiện thị form nhập dữ liệu
+function isFormActive(block, none) {
+    document.getElementById(block).style.display = "block";
+    document.getElementById(none).style.display = "none";
+}
+
+
+
+
 
 
 

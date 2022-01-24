@@ -41,3 +41,10 @@
 .tab-content.active {
     display: block;
 }
+
+
+#contents-form {
+    display: none;
+}
+
+

@@ -52,7 +52,10 @@
 
         <div class="contents">
             <div class="tab-content active">
-                đây là trang cửa hàng
+                <div class="btn add-order-btn" onclick="isFormActive('contents-form', 'main')">
+                    <i class="fas fa-plus"></i>
+                    <span>Thêm đơn hàng</span>
+                </div>
             </div>
             <div class="tab-content">
                 đây là trang khách hàng
@@ -61,12 +64,37 @@
                 đây là trang sổ nợ
             </div>
             <div class="tab-content">
-                đây là trang kho hàng
+                <div class=" btn import-products-btn" onclick="isFormActive('contents-form', 'main')">
+                    <i class="fas fa-arrow-up"></i>
+                    <span>Nhập hàng</span>
+                </div>
+
+                <div class=" btn export-products-btn" onclick="isFormActive('contents-form', 'main')">
+                    <i class="fas fa-arrow-down"></i>
+                    <span>Xuất hàng</span>
+                </div>
             </div>
             <div class="tab-content">
                 đây là trang cá nhân
             </div>
         </div>
+
+    </div>
+
+    <div id="contents-form">
+        <div class="order-form">
+            đây là form đơn hàng
+        </div>
+        <div class="import-products-form">
+            đây là form nhập sản phẩm
+        </div>
+        <div class="export-products-form">
+            đây là form xuất sản phẩm
+        </div>
+
+        <button onclick="isFormActive('main', 'contents-form')">
+            click vào đây để trở về
+        </button>
     </div>
 
     <script src="./app.js"></script>
