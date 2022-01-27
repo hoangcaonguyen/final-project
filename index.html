@@ -28,22 +28,18 @@
         <nav class="navbar">
             <div class="tab">
                 <div class="tab-item active" onclick="ChangeContents(0)">
-                    <i class="fas fa-store"></i>
-                    <span>Cửa hàng</span>
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <span>Đơn hàng</span>
                 </div>
                 <div class="tab-item" onclick="ChangeContents(1)">
                     <i class="fas fa-address-book"></i>
                     <span>Khách hàng</span>
                 </div>
                 <div class="tab-item" onclick="ChangeContents(2)">
-                    <i class="fas fa-file-invoice-dollar"></i>
-                    <span>Sổ nợ</span>
-                </div>
-                <div class="tab-item" onclick="ChangeContents(3)">
                     <i class="fas fa-boxes"></i>
                     <span>Kho hàng</span>
                 </div>
-                <div class="tab-item" onclick="ChangeContents(4)">
+                <div class="tab-item" onclick="ChangeContents(3)">
                     <i class="fas fa-user"></i>
                     <span>Cá nhân</span>
                 </div>
@@ -51,27 +47,188 @@
         </nav>
 
         <div class="contents">
+            
             <div class="tab-content active">
-                <div class="btn add-order-btn" onclick="isFormActive('contents-form', 'main')">
-                    <i class="fas fa-plus"></i>
-                    <span>Thêm đơn hàng</span>
-                </div>
-            </div>
-            <div class="tab-content">
-                đây là trang khách hàng
-            </div>
-            <div class="tab-content">
-                đây là trang sổ nợ
-            </div>
-            <div class="tab-content">
-                <div class=" btn import-products-btn" onclick="isFormActive('contents-form', 'main')">
-                    <i class="fas fa-arrow-up"></i>
-                    <span>Nhập hàng</span>
+                <div class="search-add-bar">
+                    <div class="search-bar">
+                        <input type="search"  class="search-input" placeholder="Tìm kiếm đơn hàng">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+
+                    <div class="add-button">
+                        <i class="fas fa-plus-square"></i>
+                    </div>
                 </div>
 
-                <div class=" btn export-products-btn" onclick="isFormActive('contents-form', 'main')">
-                    <i class="fas fa-arrow-down"></i>
-                    <span>Xuất hàng</span>
+
+                <div class="orders-manage">
+                    <ul>
+                        <li>Tất cả</li>
+                        <li>Chưa giao</li>
+                        <li>Đã giao</li>
+                        <li>Đã hủy</li>
+                    </ul>
+                </div>
+
+                <div class="orders-pane contents-pane">
+
+                    <div class="orders-item content-item">
+                        <div class="date-status">
+                            <div class="date-order">16/09/2022</div>
+                            <div class="status-order">Đã giao</div>
+                        </div>
+                        <div class="info-price">
+                            <div class="info-order">
+                                <div class="buyer"><h3>Vu</h3></div>
+                                <div class="code-order">#12234</div>
+                            </div>
+                            <div class="price-order">
+                                <div class="price"><h3>100.000đ</h3></div>
+                                <div class="amount">5 sản phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orders-item content-item">
+                        <div class="date-status">
+                            <div class="date-order">16/09/2022</div>
+                            <div class="status-order">Đã giao</div>
+                        </div>
+                        <div class="info-price">
+                            <div class="info-order">
+                                <div class="buyer"><h3>Vu</h3></div>
+                                <div class="code-order">#12234</div>
+                            </div>
+                            <div class="price-order">
+                                <div class="price"><h3>100.000đ</h3></div>
+                                <div class="amount">5 sản phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orders-item content-item">
+                        <div class="date-status">
+                            <div class="date-order">16/09/2022</div>
+                            <div class="status-order">Đã giao</div>
+                        </div>
+                        <div class="info-price">
+                            <div class="info-order">
+                                <div class="buyer"><h3>Vu</h3></div>
+                                <div class="code-order">#12234</div>
+                            </div>
+                            <div class="price-order">
+                                <div class="price"><h3>100.000đ</h3></div>
+                                <div class="amount">5 sản phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orders-item content-item">
+                        <div class="date-status">
+                            <div class="date-order">16/09/2022</div>
+                            <div class="status-order">Đã giao</div>
+                        </div>
+                        <div class="info-price">
+                            <div class="info-order">
+                                <div class="buyer"><h3>Vu</h3></div>
+                                <div class="code-order">#12234</div>
+                            </div>
+                            <div class="price-order">
+                                <div class="price"><h3>100.000đ</h3></div>
+                                <div class="amount">5 sản phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orders-item content-item">
+                        <div class="date-status">
+                            <div class="date-order">16/09/2022</div>
+                            <div class="status-order">Đã giao</div>
+                        </div>
+                        <div class="info-price">
+                            <div class="info-order">
+                                <div class="buyer"><h3>Vu</h3></div>
+                                <div class="code-order">#12234</div>
+                            </div>
+                            <div class="price-order">
+                                <div class="price"><h3>100.000đ</h3></div>
+                                <div class="amount">5 sản phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="orders-item content-item">
+                        <div class="date-status">
+                            <div class="date-order">16/09/2022</div>
+                            <div class="status-order">Đã giao</div>
+                        </div>
+                        <div class="info-price">
+                            <div class="info-order">
+                                <div class="buyer"><h3>Vu</h3></div>
+                                <div class="code-order">#12234</div>
+                            </div>
+                            <div class="price-order">
+                                <div class="price"><h3>100.000đ</h3></div>
+                                <div class="amount">5 sản phẩm</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="search-add-bar">
+                    <div class="search-bar">
+                        <input type="search"  class="search-input" placeholder="Tìm kiếm khách hàng">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+
+                    <div class="add-button">
+                        <i class="fas fa-plus-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content">
+
+                <div class="search-add-bar">
+                    <div class="search-bar">
+                        <input type="search"  class="search-input" placeholder="Tìm kiếm sản phẩm">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+
+                    <div class="add-button">
+                        <i class="fas fa-plus-square"></i>
+                    </div>
+                </div>
+
+                <div class="warehouses-pane contents-pane">
+                    <div class="warehouse-item content-item">
+                        this is item 2
+                    </div>
+
+                    <div class="warehouse-item content-item">
+                        this is item 2
+                    </div>
+
+                    <div class="warehouse-item content-item">
+                        this is item 2
+                    </div>
+
+                    <div class="warehouse-item content-item">
+                        this is item 2
+                    </div>
+
+                    <div class="warehouse-item content-item">
+                        this is item 2
+                    </div>
                 </div>
             </div>
             <div class="tab-content">
