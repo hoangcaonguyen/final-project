@@ -3,11 +3,20 @@
 }
 
 
+.navbar {
+    z-index: 999;
+    background-color: #fff;
+}
+
+.contents {
+    background-color: rgb(246 240 240 / 52%);
+}
+
 
 .tab {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: 1px solid gray;
 }
 
@@ -47,4 +56,30 @@
     display: none;
 }
 
+.content-item {
+    background-color: #fff;
+    border-bottom: 0.2px solid rgb(194, 192, 192);
+    box-shadow: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
+
+.date-status {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-bottom: 0.1px solid rgb(224, 222, 222);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.info-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
