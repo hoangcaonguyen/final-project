@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    display: flex;
+    border: 1px black;
+    box-shadow: 3px 3px 3px #888888;
+    background-color: #20B2AA;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border-radius: 10%;
+    height: 100%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.avata {
+    width: 20%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.changeAvt {
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.imformation {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 20%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    width: 30%;
+}
+
+body {
+    background-image: url(/Assest/backgroundpic.jpg);
+}
+
+button {
+    border-radius: 10%;
+}
