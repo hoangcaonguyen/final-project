@@ -7,61 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="profileStyle.css">
-    <link rel="stylesheet" href="./responsive.css">
     <script src="https://kit.fontawesome.com/a38f25986b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <main>
-        <div class="profile">
-            <div class="avata">
-                <img src="/Assest/boyAvt1.jpg">
-                <button class="changeAvt">change Avata</button>
-            </div>
-            <form id="imformation">
-                <label for="fname">Họ và tên:</label>
-                <input type="text" id="namefield" name="fname" placeholder="Hoàng Cao Nguyên"><br><br>
-                <label for="lbirth">Ngày sinh</label>
-                <input type="text" id="birthfield" name="lbirth" placeholder="31/7/1999"><br><br>
-                <label for="laddress">Địa chỉ</label>
-                <input type="text" id="addressfield" name="laddress" placeholder="Hà đông, Hà nội"><br><br>
-                <label for="lemail">Email</label>
-                <input type="text" id="emailfield" name="lemail" placeholder="hoangcaonguyen1999@gmail.com"><br><br>
-                <label for="lphonenumber">Số điệu  thoại</label>
-                <input type="text" id="phonenumberfield" name="lphonenumber" placeholder="0987764770"><br><br>
-                <label for="lmoney">Số tiền</label>
-                <input type="text" id="moneyfield" name="lmoney" placeholder="10.0000 đ"><br><br>
-                <button class="update">Cập nhật thông tin</button>
-            </form>
+    <div class="card">
+        <div id="updateOrBack">
+            <i class="fa fa-arrow-circle-left" style="font-size:36px"></i>
+            <button id="updateProfile">Cập nhật hồ sơ</button>
         </div>
-    </main>
-    <footer>
-        <nav class="navbar">
-            <div class="tab">
-                <div class="tab-item active" onclick="ChangeContents(0)">
-                    <i class="fas fa-store"></i>
-                    <span>Cửa hàng</span>
-                </div>
-                <div class="tab-item" onclick="ChangeContents(1)">
-                    <i class="fas fa-address-book"></i>
-                    <span>Khách hàng</span>
-                </div>
-                <div class="tab-item" onclick="ChangeContents(2)">
-                    <i class="fas fa-file-invoice-dollar"></i>
-                    <span>Sổ nợ</span>
-                </div>
-                <div class="tab-item" onclick="ChangeContents(3)">
-                    <i class="fas fa-boxes"></i>
-                    <span>Kho hàng</span>
-                </div>
-                <div class="tab-item" onclick="ChangeContents(4)">
-                    <i class="fas fa-user"></i>
-                    <span>Cá nhân</span>
-                </div>
+        <img src="/Assest/avtdefault.png" alt="avt">
+        <h2>Hoàng Cao Nguyên</h2>
+        <div class="flexDiv" id="dateOfBirth">
+            <p class="attribute">Ngày sinh:</p>
+            <p class="infor">31/07/1999</p>
+        </div>
+        <div class="flexDiv" id="address">
+            <p class="attribute">Địa chỉ:</p>
+            <p class="infor">Vạn phúc, Hà nội</p>
+        </div>
+        <div class="flexDiv" id="phoneNumber">
+            <p class="attribute">Số điện thoại:</p>
+            <p class="infor">0987764770</p>
+        </div>
+        <div class="flexDiv" id="email">
+            <p class="attribute">Email:</p>
+            <p class="infor">hoangcaonguyen1999@gmail.com</p>
+        </div>
+        <div class="flexDiv" id="money">
+            <p class="attribute">Số tiền:</p>
+            <div class="cash infor">
+                <p id="price">500.000</p>
+                <p id="unit">VND</p>
             </div>
-        </nav>
-    </footer>
-    <script src="./app.js"></script>
+        </div>
+        <div class="flexDiv" id="updateTime">
+            <p class="attribute">Ngày cập nhật:</p>
+            <p class="infor">31/01/2022</p>
+        </div>
+        <div class="flexDiv" id="note">
+            <p class="attribute">Ghi chú:</p>
+            <p class="infor">đây là ghi chú</p>
+        </div>
+    </div>
 </body>
 
 </html>
