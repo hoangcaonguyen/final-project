@@ -1,0 +1,52 @@
+body {
+    background-image: url("https://trello.com/1/cards/61eab286610bbc557f76daf9/attachments/61ee18d7d1604438b4c0e691/previews/61ee18d7d1604438b4c0e6ca/download/1.png ");
+}
+
+.container {
+    padding-top: 50px;
+    padding-left: 950px;
+}
+
+.form {
+    width: 400px;
+    background-color: transparent;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 20px
+}
+
+.frCreateAccount {
+    height: 500px
+}
+
+.frlogin {
+    height: 400px
+}
+
+.txt {
+    font-size: 40px;
+    color: #28667C
+}
+
+.txtbox {
+    width: 250px;
+    height: 40px;
+    border-color: transparent;
+    background: transparent;
+    color: #18333C;
+    font-size: 25px;
+    font-family: arial
+}
+
+.button {
+    background-color: #3599BD;
+    border-color: #3599BD;
+    width: 130px;
+    height: 35px;
+    font-size: 24px
+}
+
+.link {
+    color: red;
+    text-decoration: none
+}
