@@ -9,7 +9,7 @@ let account = {
     dateOfBirth: '31/07/1999',
 };
 
-myForm.addEventListener("submit", function(event) {
+function login() {
     let email = document.getElementById("email").value;
     let passWord = document.getElementById("pass").value;
     if (email == "" && passWord == "") {
@@ -20,7 +20,8 @@ myForm.addEventListener("submit", function(event) {
                 alert("khong duoc chua space!!");
             } else {
                 if (email === account.email && passWord === account.passWord) {
-                    alert(" dang nhap thanh cong !");
+                    alert('abc');
+                    location.replace("/Home/home.html");
                 } else {
                     alert(" sai user name hoac password !");
                 }
@@ -29,4 +30,4 @@ myForm.addEventListener("submit", function(event) {
             alert(" mat khau phai 8 ky tu tro len");
         }
     }
-});
+};

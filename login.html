@@ -6,14 +6,14 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
+    <script src="loginScript.js"></script>
     <div class="container">
 
         <form class="form frlogin">
             <h1 class="txt">Login</h1>
-            <div><input type="text" class="txtbox" autofocus placeholder="Username or email"></div><br/>
-            <div><input type="password" class="txtbox" autofocus placeholder="Password"></div><br/>
-            <button class="button" type="submit">Continue</button>
+            <div><input id="email" type="text" class="txtbox" autofocus placeholder="Username or email" required></div><br/>
+            <div><input id="pass" type="password" class="txtbox" autofocus placeholder="Password" required></div><br/>
+            <button class="button" type="submit" onclick="login()">Continue</button>
             <p><a href="#" class="link">Forgot your password?</a></p>
             <p><a class="link" href="./">Don't have an account? Create account</a></p>
         </form>

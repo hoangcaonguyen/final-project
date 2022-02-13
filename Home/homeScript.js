@@ -84,3 +84,22 @@ function change() {
         }
     }
 }
+
+// xử lý khi click vào button xóa của item
+var btnXoa = document.querySelectorAll(".btn-delete")
+console.log(btnXoa)
+var itemGrid = null
+
+btnXoa.forEach(button => {
+    button.addEventListener('click', function() {
+        itemGrid = this.parentElement.parentElement
+        console.log("====itemGrid===", itemGrid)
+    })
+})
+
+// khi bấm vào confirm để xóa
+var btnXoa1 = document.getElementsByClassName("btn-confirm-delete")
+console.log("===btnXoa1===", btnXoa1)
+btnXoa1[0].addEventListener('click', function() {
+    itemGrid.remove()
+})

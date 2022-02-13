@@ -2,8 +2,13 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: Ink Free;
         font-weight: 700;
+    }
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 970px;
     }
     
     img {
@@ -17,6 +22,30 @@
     
     #InforForm {
         text-align: center;
+    }
+    
+    #InforForm .profile {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #InforForm h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .avatar img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .primary-btn {
+        border-radius: 30px;
+        background: #1890ff;
+        color: white;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
     }
     
     #back {
@@ -39,6 +68,7 @@
     .flexDiv {
         display: flex;
         text-align: start;
+        align-items: center;
     }
     
     .flexDiv label {
@@ -46,7 +76,7 @@
         margin-left: 50px;
         margin-top: 2%;
         margin-left: 5%;
-        font-size: 24px;
+        font-size: 16px;
         margin-bottom: 2%;
     }
     

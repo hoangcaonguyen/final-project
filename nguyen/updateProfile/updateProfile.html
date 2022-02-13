@@ -13,28 +13,37 @@
 <body>
 
     <form id="InforForm">
-        <div id="back">
-            <i class="fa fa-arrow-circle-left" style="font-size:36px" onclick="window.location.href='/Home/home.html';"></i>
-        </div>
-        <h1>Cập nhật thông in</h1>
-        <img src="/Assest/avtdefault.png" alt="avt"><br><br>
-        <button id="changeImg">change img</button>
-        <div id="box">
-            <div class="flexDiv">
-                <label>Họ và tên :</label>
-                <input type="text" id="fullNameField" name="lFullName">
+        <div class="container">
+            <div id="back">
+                <i class="fa fa-arrow-circle-left" style="font-size:36px" onclick="window.location.href='/Home/home.html';"></i>
             </div>
-            <div class="flexDiv">
-                <label>Email:</label>
-                <input type="text" id="emailfield" name="lEmail"></div>
-            <div class="flexDiv">
-                <label>Số điện thoại :</label>
-                <input type="text" id="phoneNumberfield" name="lPhoneNumber"></div>
-            <div class="flexDiv">
-                <label>Địa chỉ :</label>
-                <input type="text" id="addressfield" name="lAddress"></div>
-            <button id="change">change</button>
+            <h1>Cập nhật thông in</h1>
+            <div class="profile">
+                <div class="avatar">
+                    <img src="/Assest/avtdefault.png" alt="avt"><br><br>
+                    <button class="primary-btn " id="changeImg">Thay đổi</button>
+                </div>
+
+                <div id="box">
+                    <div class="flexDiv">
+                        <label>Họ và tên :</label>
+                        <input type="text" id="fullNameField" name="lFullName">
+                    </div>
+                    <div class="flexDiv">
+                        <label>Email:</label>
+                        <input type="text" id="emailfield" name="lEmail"></div>
+                    <div class="flexDiv">
+                        <label>Số điện thoại :</label>
+                        <input type="text" id="phoneNumberfield" name="lPhoneNumber"></div>
+                    <div class="flexDiv">
+                        <label>Địa chỉ :</label>
+                        <input type="text" id="addressfield" name="lAddress"></div>
+                    <button class="primary-btn " style="margin-top: 15px;" id="change">Thay đổi</button>
+                </div>
+            </div>
         </div>
+
+
     </form>
 </body>
 

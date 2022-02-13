@@ -36,15 +36,15 @@
                     <button class="start">Bắt đầu ></button>
                 </div>
             </div>
-            <div class="tab-pane">
+            <div class="tab-pane active">
                 <div class="orderPage">
                     <nav class="opstion">
                         <div class="box">
                             <div class="searchBox">
                                 <input id="search" type="text">
-                                <i class="fa fa-search searchIcon" style="font-size: 28px;"></i>
+                                <i class="fa fa-search searchIcon" style="font-size: 24px; transform: translateX(-60px);"></i>
                             </div>
-                            <div class="headler1">Hóa đơn</div>
+                            <div class="headler1">Trạng thái đơn hàng</div>
                             <div class="headler2">Đã giao</div>
                             <div class="headler2">Đang giao</div>
                             <div class="headler2">Chờ giao</div>
@@ -58,48 +58,41 @@
                                 <p>Hóa đơn 1</p>
                                 <p>100.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Xem</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
-                                <div>
-                                    <div class="heightImage">
-                                        <img class="productImg" src="/Assest/orderPic.png" />
-                                    </div>
-                                    <div class="heightText">
-                                        <p>Hóa đơn 2</p>
-                                        <p>120.000 đ</p>
-                                    </div>
-                                    <div class="">
-                                        <button class="button button1">Xem</button>
-                                        <button class="button button2">Xóa</button>
-                                    </div>
+                                <img class="productImg" src="/Assest/orderPic.png" />
+                                <p>Hóa đơn 2</p>
+                                <p>200.000 đ</p>
+                                <div class="">
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
-                                <div>
-                                    <div>
-                                        <img class="productImg" src="/Assest/orderPic.png" />
-                                    </div>
-                                    <div class="heightText">
-                                        <p>Hóa đơn 3</p>
-                                        <p>130.000 đ</p>
-                                    </div>
-                                    <div class="">
-                                        <button class="button button1">Xem</button>
-                                        <button class="button button2">Xóa</button>
-                                    </div>
 
+                                <div>
+                                    <img class="productImg" src="/Assest/orderPic.png" />
                                 </div>
+                                <div class="heightText">
+                                    <p>Hóa đơn 3</p>
+                                    <p>130.000 đ</p>
+                                </div>
+                                <div class="">
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
+                                </div>
+
                             </div>
                             <div class="grid-item">
                                 <img class="productImg" src="/Assest/orderPic.png" />
                                 <p>Hóa đơn 4</p>
                                 <p>240.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Xem</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -107,8 +100,8 @@
                                 <p>Hóa đơn 5</p>
                                 <p>570.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Xem</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -116,8 +109,8 @@
                                 <p>Hóa đơn 6</p>
                                 <p>460.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Xem</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -125,8 +118,8 @@
                                 <p>Hóa đơn 7</p>
                                 <p>120.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Xem</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -134,8 +127,8 @@
                                 <p>Hóa đơn 8</p>
                                 <p>600.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Xem</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -143,8 +136,8 @@
                                 <p>Hóa đơn 9</p>
                                 <p>350.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Xem</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Xem</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                         </div>
@@ -172,8 +165,8 @@
                                 <p>Sđt: 0987664701</p>
                                 <p>0 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -182,8 +175,8 @@
                                 <p>Sđt: 0987664702</p>
                                 <p>120.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -192,8 +185,8 @@
                                 <p>Sđt: 0987664703</p>
                                 <p>320.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -202,8 +195,8 @@
                                 <p>Sđt: 0987664704</p>
                                 <p>440.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -212,8 +205,8 @@
                                 <p>Sđt: 0987664705</p>
                                 <p>500.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -222,8 +215,8 @@
                                 <p>Sđt: 0987664706</p>
                                 <p>100.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -232,8 +225,8 @@
                                 <p>Sđt: 0987664707</p>
                                 <p>600.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -242,8 +235,8 @@
                                 <p>Sđt: 0987664708</p>
                                 <p>70.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -252,8 +245,8 @@
                                 <p>Sđt: 0987664709</p>
                                 <p>300.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                         </div>
@@ -283,8 +276,8 @@
                                 <p>Tương Ớt Chin Su</p>
                                 <p>12.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -292,8 +285,8 @@
                                 <p>Mì Hảo Hảo</p>
                                 <p>3.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -301,8 +294,8 @@
                                 <p>Bánh chocopie</p>
                                 <p>30.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -310,8 +303,8 @@
                                 <p>Cá đóng hộp</p>
                                 <p>40.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -319,8 +312,8 @@
                                 <p>Cà phê trung nguyên</p>
                                 <p>50.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -328,8 +321,8 @@
                                 <p>Milo</p>
                                 <p>60.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -337,8 +330,8 @@
                                 <p>coca cola</p>
                                 <p>10.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -346,8 +339,8 @@
                                 <p>Phở bò</p>
                                 <p>6.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                             <div class="grid-item">
@@ -355,20 +348,23 @@
                                 <p>Bánh đậu xanh</p>
                                 <p>30.000 đ</p>
                                 <div class="">
-                                    <button class="button button1">Sửa</button>
-                                    <button class="button button2">Xóa</button>
+                                    <button class="button button1 btn-view">Sửa</button>
+                                    <button data-modal-target="#modalConfirm" class="button button2 btn-delete">Xóa</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane active">
+            <div class="tab-pane">
                 <div class="container">
                     <div class="orderPage">
                         <div class="avt" style="text-align: center">
                             <img src="/Assest/avtdefault.png" alt="avt" id="avata">
-                            <button class="changeAvt">Change avatar</button>
+                            <div>
+                                <label for="files" class="changeAvt">Thay đổi</label>
+                                <input id="files" style="display: none;" type="file">
+                            </div>
                         </div>
                         <div class="information">
                             <h1>Hoàng Cao Nguyên</h1>
@@ -405,6 +401,19 @@
                         <button class="submitChangePassword" value="Submit" onclick="change()"> Submit </button>
 
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modalConfirm">
+            <div class="modal-header">
+                <div class="title">Xác nhận</div>
+                <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có muốn xóa sản phẩm này không?</p>
+                <div class="d-flex" style="display: flex; justify-content: flex-end;">
+                    <button data-close-button class="button2" style="margin-right: 10px;">Hủy</button>
+                    <button data-close-button class="button1 btn-confirm-delete">Có</button>
                 </div>
             </div>
         </div>

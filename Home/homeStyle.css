@@ -6,20 +6,21 @@
 }
 
 .tabs {
-    background: #252242;
     display: flex;
     justify-content: flex-end;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
 }
 
 .tab-item {
     padding: 15px;
-    color: white;
+    color: black;
     font-size: 150%;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .tab-item:hover {
-    opacity: 0.5;
-    background-color: blue;
+    color: #1890ff;
 }
 
 .tab-item.active {
@@ -104,25 +105,24 @@ a {
     grid-template-columns: auto auto auto;
     padding: 10px;
     margin: 10px;
-    border: 1px solid #c9c9c9d1;
-    background-color: #c9c9c9ec;
     width: 100%;
 }
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     margin: 10px;
     height: 95%;
     width: 85%;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .listProduct {
-    border: 1px solid #c9c9c9d1;
-    background-color: #c9c9c9ec;
+    border-left: 1px solid #c9c9c9d1;
+    background-color: #cccccc52;
     margin-left: 45px;
     width: 100%;
 }
@@ -140,8 +140,7 @@ a {
 }
 
 #danhmuc {
-    margin-left: 30px;
-    margin-top: 10px;
+    margin: 20px 20px 0 26px;
     font-size: 30px;
     color: red;
 }
@@ -178,13 +177,25 @@ a {
 
 .button1 {
     background-color: #4CAF50;
+    border-radius: 4px;
+    padding: 8px;
+    min-width: 80px;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 
 /* Green */
 
 .button2 {
-    background-color: #008CBA;
+    background-color: RED;
+    border-radius: 4px;
+    padding: 8px;
+    min-width: 80px;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 
@@ -257,14 +268,17 @@ a {
 
 .headler1 {
     margin: 10%;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .headler2 {
     margin-left: 15%;
-    font-size: 25px;
+    font-size: 20px;
+    cursor: pointer;
     margin-top: 5%;
     margin-bottom: 5%;
+    border-radius: 30px;
+    padding: 8px;
 }
 
 p {
@@ -300,10 +314,21 @@ p {
     background: #1890ff;
     color: white;
     margin: auto;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 100px;
+}
+
+.information {
+    margin-top: 25px;
 }
 
 .changeAvt:hover {
     opacity: 0.8;
+}
+
+.avt {
+    width: 40%;
 }
 
 .modal {
