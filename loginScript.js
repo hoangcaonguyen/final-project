@@ -1,5 +1,3 @@
-const myForm = document.getElementById("wrapper");
-
 let account = {
     email: 'hoangcaonguyen1999@gmail.com',
     fullName: 'Hoàng Cao Nguyên',
@@ -21,7 +19,7 @@ function login() {
             } else {
                 if (email === account.email && passWord === account.passWord) {
                     alert('abc');
-                    location.replace("/Home/home.html");
+                    window.location.replace("/Home/home.html");
                 } else {
                     alert(" sai user name hoac password !");
                 }
