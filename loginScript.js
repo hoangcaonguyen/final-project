@@ -18,8 +18,11 @@ function login() {
                 alert("khong duoc chua space!!");
             } else {
                 if (email === account.email && passWord === account.passWord) {
-                    alert('abc');
-                    window.location.replace("/Home/home.html");
+                    alert('đăng nhập thành công');
+                    // window.location.replace("/Home/home.html");
+                    // location.href = "/Home/home.html";
+                    window.close();
+                    window.open("/final-project/Home/home.html");
                 } else {
                     alert(" sai user name hoac password !");
                 }
