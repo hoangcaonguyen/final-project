@@ -19,10 +19,10 @@ function login() {
             } else {
                 if (email === account.email && passWord === account.passWord) {
                     alert('đăng nhập thành công');
-                    // window.location.replace("/Home/home.html");
+                    window.location.replace("/Home/home.html");
                     // location.href = "/Home/home.html";
-                    window.close();
-                    window.open("/final-project/Home/home.html");
+                    // window.close();
+                    // window.open("/final-project/Home/home.html");
                 } else {
                     alert(" sai user name hoac password !");
                 }
